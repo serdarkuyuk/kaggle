@@ -10,7 +10,6 @@ from sklearn.datasets import make_hastie_10_2
 from sklearn.model_selection import train_test_split
 
 
-
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
