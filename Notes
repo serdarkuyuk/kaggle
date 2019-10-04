@@ -1,0 +1,42 @@
+
+
+Word2vec
+
+  Word2vec, Glove, FastText
+  Sentence : Doc2vec
+
+Applying Bag of Words
+  very lagre vectors
+  meaning of each value in vector is known
+  1-Preprocessing
+      lowercase,stemming,lemmatization, stopwords
+  2-Ngrams can help to use local content
+  3-Postprocessing TFIDF
+
+Missing values
+  
+  -Can be hidden in the form of -1, 999, large numbers etc. look the 
+    histogram. 
+  
+  Fillna approaches
+  1- -999, -1, etc
+  2- mean, median. (ignore missing values)
+  3- Reconstruct value
+   
+  isnull so that true and false (data featuring)
+  avoid filling nans before feature generation
+  Xgboost can handle NaN
+  
+
+Datetime and coordinates
+
+  Datetime  
+    Periodicity
+    time since row-independent/dependent
+    Difference between dates
+  Coordinates
+    Interesting places from train 
+    Centers of clusters
+    Aggregated statistics
+  
+  
